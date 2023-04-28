@@ -23,9 +23,10 @@ newline = "⏎"
 tabpad = "·" 
 
 [keys.normal."#"]
-"+" = ":set-option lsp.display-inlay-hints true"
-"*" = ":set-option whitespace.render all"
-"minus" = [":set-option lsp.display-inlay-hints false", ":set-option whitespace.render none"]
+"+" = ":set lsp.display-inlay-hints true"
+"*" = ":set lsp.display-inlay-hints false"
+"minus" = ":set whitespace.render all"
+"_" = ":set whitespace.render none"
 
 [keys.insert]
 j = { k = "normal_mode" }
